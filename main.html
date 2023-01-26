@@ -13,7 +13,7 @@
     <div class="container">
         <div class="container-fluid border border-1 p-5 mt-5 rounded-4">
             <h1 style="text-align: center;" class="mb-5">Internship Form</h1>
-            <form action="post" class="row g-3 was-validation">
+            <form action="post" class="row g-3 was-validated">
                 <div class="col-md-4">
                     <label for="first-name-input" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="first-name-input" required>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <label for="grad-year-select" class="form-label">Graduation Year</label>
+                    <label for="grad-year-select" class="form-label">Graduation year</label>
                     <select name="year" id="grad-year-select" class="form-select" required>
                         <option value="" selected disabled>Choose...</option>
                         <option value="2020">2020</option>
@@ -63,9 +63,9 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="form-check">
+                    <div class="form-check has-validation">
                         <input type="checkbox" class="form-check-input condition-checkbox" id="conditions-checkbox" required>
-                        <label for="conditions-checkbox" class="form-check-label">Agree to terms and conditions</label>
+                        <label for="conditions-checkbox" class="form-check-label">Agree to term and conditions</label>
                         <div class="invalid-feedback">
                             You must agree before submitting.
                         </div>
